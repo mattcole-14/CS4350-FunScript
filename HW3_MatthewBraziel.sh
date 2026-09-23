@@ -58,3 +58,24 @@ grep -E '\bC[[:alnum:]]*0\b' FunScript.txt
 
 echo "14. All lines that contain a word that starts with s and end with l :"
 grep -E '\bs[[:alpha:]]*l\b' FunScript.txt
+
+echo "15. Deleting the existing File FunScript.txt"
+rm FunScript.txt
+
+echo "16. Display the content of FunScript.txt :"
+
+if [ -f FunScript.txt ]
+then
+    cat FunScript.txt
+else
+    echo "FunScript.txt does not exist."
+fi
+
+echo "Prepared by Matthew Braziel"
+echo "Due Date : 10 - 25 - 2026"
+echo "Today's Date is :"
+echo "Day : $(date +%d)"
+echo "Month : $(date +%m)"
+echo "Year : $(date +%Y)"
+echo "Time : $(date +%T)"
+echo "The name of the file that contains the script is : $0"
