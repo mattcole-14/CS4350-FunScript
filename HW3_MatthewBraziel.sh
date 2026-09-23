@@ -20,3 +20,6 @@ scripts and shell programming using
 zeus ide
 @ TEXAS STATE UNIVERSITY
 EOF
+
+echo "2. Displaying the contents of FunScript.txt."
+cat FunScript.txt
