@@ -21,7 +21,7 @@ zeus ide
 @ TEXAS STATE UNIVERSITY
 EOF
 
-echo "2. Displaying the contents of FunScript.txt."
+echo "2. The content of the created file is :"
 cat FunScript.txt
 echo "3. All lines with alphabet characters :"
 grep '[[:alpha:]]' FunScript.txt
@@ -79,3 +79,4 @@ echo "Month : $(date +%m)"
 echo "Year : $(date +%Y)"
 echo "Time : $(date +%T)"
 echo "The name of the file that contains the script is : $0"
+# End of HW3 - Matthew Braziel
